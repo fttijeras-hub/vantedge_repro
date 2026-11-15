@@ -1,0 +1,55 @@
+{
+ "servicio": "p_s7_01",
+ "ip": "192.168.100.40",
+ "puerto": 102,
+ "proto": "s7",
+ "auditorias_ejecutadas": 3,
+ "duracion_fase_auditoria_s": 25.9,
+ "fases": {
+  "base": {
+   "n": 197,
+   "errores": 0,
+   "rtt_p50_ms": 1.08,
+   "rtt_p95_ms": 2.75,
+   "rtt_max_ms": 6.35,
+   "cpu_media_pct": 2.21,
+   "cpu_max_pct": 2.4
+  },
+  "audit": {
+   "n": 255,
+   "errores": 0,
+   "rtt_p50_ms": 1.08,
+   "rtt_p95_ms": 2.59,
+   "rtt_max_ms": 5.67,
+   "cpu_media_pct": 2.16,
+   "cpu_max_pct": 2.56
+  },
+  "recup": {
+   "n": 197,
+   "errores": 0,
+   "rtt_p50_ms": 1.07,
+   "rtt_p95_ms": 2.11,
+   "rtt_max_ms": 7.46,
+   "cpu_media_pct": 2.02,
+   "cpu_max_pct": 2.36
+  }
+ },
+ "trafico": {
+  "base": {
+   "paquetes": 1970,
+   "syn": 197,
+   "segundos": 20.0
+  },
+  "audit": {
+   "paquetes": 2695,
+   "syn": 270,
+   "segundos": 25.9
+  },
+  "recup": {
+   "paquetes": 1970,
+   "syn": 197,
+   "segundos": 20.0
+  },
+  "paquetes_extra_por_auditoria_motor": 48.0
+ }
+}

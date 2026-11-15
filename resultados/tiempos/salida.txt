@@ -1,0 +1,8 @@
+Odoo vulnerable (HTTP+L7)          n=10 media=11.37s desv=0.58s [10.354..12.299]
+Odoo endurecido (HTTP+L7)          n=10 media=11.38s desv=0.1s [11.28..11.593]
+HTTP plano                         n=10 media=9.9s desv=1.16s [9.23..12.046]
+Modbus TCP                         n=10 media=0.3s desv=0.03s [0.268..0.37]
+S7comm                             n=10 media=5.31s desv=0.03s [5.274..5.358]
+MQTT anónimo                       n=10 media=0.3s desv=0.03s [0.267..0.367]
+MQTT con autenticación             n=10 media=0.31s desv=0.02s [0.266..0.321]
+Puerto 502 abierto sin Modbus      n=10 media=5.31s desv=0.03s [5.287..5.344]

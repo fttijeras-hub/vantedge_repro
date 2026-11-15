@@ -1,0 +1,55 @@
+{
+ "servicio": "p_modbus_01",
+ "ip": "192.168.100.20",
+ "puerto": 502,
+ "proto": "modbus",
+ "auditorias_ejecutadas": 6,
+ "duracion_fase_auditoria_s": 21.3,
+ "fases": {
+  "base": {
+   "n": 198,
+   "errores": 0,
+   "rtt_p50_ms": 1.01,
+   "rtt_p95_ms": 2.06,
+   "rtt_max_ms": 4.99,
+   "cpu_media_pct": 0.73,
+   "cpu_max_pct": 0.76
+  },
+  "audit": {
+   "n": 209,
+   "errores": 0,
+   "rtt_p50_ms": 1.02,
+   "rtt_p95_ms": 2.14,
+   "rtt_max_ms": 6.31,
+   "cpu_media_pct": 0.81,
+   "cpu_max_pct": 1.0
+  },
+  "recup": {
+   "n": 198,
+   "errores": 0,
+   "rtt_p50_ms": 1.01,
+   "rtt_p95_ms": 1.32,
+   "rtt_max_ms": 1.97,
+   "cpu_media_pct": 0.67,
+   "cpu_max_pct": 0.84
+  }
+ },
+ "trafico": {
+  "base": {
+   "paquetes": 1994,
+   "syn": 198,
+   "segundos": 20.0
+  },
+  "audit": {
+   "paquetes": 2335,
+   "syn": 239,
+   "segundos": 21.3
+  },
+  "recup": {
+   "paquetes": 1995,
+   "syn": 198,
+   "segundos": 20.0
+  },
+  "paquetes_extra_por_auditoria_motor": 35.2
+ }
+}

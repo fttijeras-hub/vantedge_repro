@@ -1,0 +1,4 @@
+2026-10-28 11:47:47,727 [INFO] Iniciando Vantedge Risk Engine...
+2026-10-28 11:47:47,728 [INFO] Configuración: pacing=3.00s | timeout=3s | max_host_errors=3 | caducidad_cache=30d
+2026-10-28 11:53:57,770 [INFO] Modo objetivos: 41 activos auditados.
+2026-10-28 11:53:57,771 [INFO] Campaña completada.

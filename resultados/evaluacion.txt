@@ -1,0 +1,74 @@
+{
+ "TP": 25,
+ "FN": 0,
+ "FP": 0,
+ "TN": 16,
+ "N": 41,
+ "exactitud": 100.0,
+ "sensibilidad": 100.0,
+ "precision": 100.0,
+ "fpr": 0.0,
+ "especificidad": 100.0,
+ "ic95_sensibilidad": [
+  86.68035060468212,
+  100.0
+ ],
+ "ic95_fpr": [
+  0.0,
+  19.361341827271993
+ ],
+ "ic95_exactitud": [
+  91.43295511310926,
+  100.0
+ ],
+ "ic95_precision": [
+  86.68035060468212,
+  100.0
+ ],
+ "ic95_especificidad": [
+  80.638658172728,
+  100.0
+ ],
+ "f1": 1.0
+}
+P-ODOO-01      v=1 det=1 TP 11.236 ['l7-odoo-unprotected', 'odoo-unprotected-database']
+P-ODOO-02      v=1 det=1 TP 11.047 ['l7-odoo-unprotected', 'odoo-unprotected-database']
+P-ODOO-03      v=1 det=1 TP 11.306 ['l7-odoo-unprotected', 'odoo-unprotected-database']
+P-ODOO-04      v=1 det=1 TP 11.342 ['l7-odoo-unprotected', 'odoo-unprotected-database']
+P-ODOO-05      v=1 det=1 TP 11.3 ['l7-odoo-unprotected', 'odoo-unprotected-database']
+P-ODOO-06      v=1 det=1 TP 11.552 ['l7-odoo-unprotected', 'odoo-unprotected-database']
+P-ODOO-07      v=1 det=1 TP 11.302 ['l7-odoo-unprotected', 'odoo-unprotected-database']
+P-ODOO-08      v=1 det=1 TP 11.48 ['l7-odoo-unprotected', 'odoo-unprotected-database']
+P-ODOO-SLOW    v=1 det=1 TP 16.365 ['l7-odoo-unprotected']
+P-MODBUS-01    v=1 det=1 TP 0.317 ['modbus-detect']
+P-MODBUS-02    v=1 det=1 TP 0.368 ['modbus-detect']
+P-MODBUS-03    v=1 det=1 TP 0.319 ['modbus-detect']
+P-MODBUS-04    v=1 det=1 TP 0.318 ['modbus-detect']
+P-MODBUS-05    v=1 det=1 TP 0.272 ['modbus-detect']
+P-MODBUS-06    v=1 det=1 TP 0.267 ['modbus-detect']
+P-MQTT-01      v=1 det=1 TP 0.271 ['unauth-mqtt-broker']
+P-MQTT-02      v=1 det=1 TP 0.37 ['unauth-mqtt-broker']
+P-MQTT-03      v=1 det=1 TP 0.368 ['unauth-mqtt-broker']
+P-MQTT-04      v=1 det=1 TP 0.319 ['unauth-mqtt-broker']
+P-MQTT-05      v=1 det=1 TP 0.318 ['unauth-mqtt-broker']
+P-S7-01        v=1 det=1 TP 5.29 ['modbus-detect', 'siemens-s7-detect']
+P-S7-02        v=1 det=1 TP 5.301 ['modbus-detect', 'siemens-s7-detect']
+P-S7-03        v=1 det=1 TP 5.343 ['modbus-detect', 'siemens-s7-detect']
+P-S7-04        v=1 det=1 TP 5.342 ['modbus-detect', 'siemens-s7-detect']
+P-S7-05        v=1 det=1 TP 5.301 ['modbus-detect', 'siemens-s7-detect']
+N-ODOO-01      v=0 det=0 TN 11.325 []
+N-ODOO-02      v=0 det=0 TN 11.324 []
+N-ODOO-03      v=0 det=0 TN 11.337 []
+N-ODOO-04      v=0 det=0 TN 11.349 []
+N-MQTT-01      v=0 det=0 TN 0.267 []
+N-MQTT-02      v=0 det=0 TN 0.368 []
+N-MQTT-03      v=0 det=0 TN 0.267 []
+N-HTTP-01      v=0 det=0 TN 9.378 []
+N-HTTP-02      v=0 det=0 TN 9.293 []
+N-HTTP-03      v=0 det=0 TN 9.425 []
+N-HTTP-04      v=0 det=0 TN 9.188 []
+N-MBCLOSED-01  v=0 det=0 TN 5.292 []
+N-MBCLOSED-02  v=0 det=0 TN 5.34 []
+N-MBCLOSED-03  v=0 det=0 TN 5.29 []
+N-S7CLOSED-01  v=0 det=0 TN 5.24 []
+N-S7CLOSED-02  v=0 det=0 TN 5.299 []

@@ -1,0 +1,55 @@
+{
+ "servicio": "p_mqtt_01",
+ "ip": "192.168.100.30",
+ "puerto": 1883,
+ "proto": "mqtt",
+ "auditorias_ejecutadas": 6,
+ "duracion_fase_auditoria_s": 21.4,
+ "fases": {
+  "base": {
+   "n": 198,
+   "errores": 0,
+   "rtt_p50_ms": 0.65,
+   "rtt_p95_ms": 2.16,
+   "rtt_max_ms": 12.12,
+   "cpu_media_pct": 0.35,
+   "cpu_max_pct": 0.46
+  },
+  "audit": {
+   "n": 211,
+   "errores": 0,
+   "rtt_p50_ms": 0.64,
+   "rtt_p95_ms": 1.66,
+   "rtt_max_ms": 5.19,
+   "cpu_media_pct": 0.34,
+   "cpu_max_pct": 0.44
+  },
+  "recup": {
+   "n": 198,
+   "errores": 0,
+   "rtt_p50_ms": 0.63,
+   "rtt_p95_ms": 2.07,
+   "rtt_max_ms": 4.0,
+   "cpu_media_pct": 0.3,
+   "cpu_max_pct": 0.37
+  }
+ },
+ "trafico": {
+  "base": {
+   "paquetes": 1980,
+   "syn": 198,
+   "segundos": 20.0
+  },
+  "audit": {
+   "paquetes": 2461,
+   "syn": 241,
+   "segundos": 21.4
+  },
+  "recup": {
+   "paquetes": 1980,
+   "syn": 198,
+   "segundos": 20.0
+  },
+  "paquetes_extra_por_auditoria_motor": 57.1
+ }
+}

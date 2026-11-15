@@ -1,0 +1,6 @@
+# Versiones con las que se ejecutó y midió el banco de pruebas (Python 3.13.16, Linux)
+shodan==1.31.0
+requests==2.34.2
+beautifulsoup4==4.15.0
+Markdown==3.11.2
+# Binario externo (no pip): Nuclei v3.8.0 + nuclei-templates (git clone, ver README_REPRODUCIR.md)

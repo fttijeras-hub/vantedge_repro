@@ -1,0 +1,55 @@
+{
+ "servicio": "p_odoo_01",
+ "ip": "192.168.100.11",
+ "puerto": 8069,
+ "proto": "http",
+ "auditorias_ejecutadas": 3,
+ "duracion_fase_auditoria_s": 45.0,
+ "fases": {
+  "base": {
+   "n": 197,
+   "errores": 0,
+   "rtt_p50_ms": 1.46,
+   "rtt_p95_ms": 3.39,
+   "rtt_max_ms": 7.42,
+   "cpu_media_pct": 1.2,
+   "cpu_max_pct": 1.26
+  },
+  "audit": {
+   "n": 431,
+   "errores": 0,
+   "rtt_p50_ms": 1.4,
+   "rtt_p95_ms": 4.43,
+   "rtt_max_ms": 1019.19,
+   "cpu_media_pct": 6.68,
+   "cpu_max_pct": 18.74
+  },
+  "recup": {
+   "n": 197,
+   "errores": 0,
+   "rtt_p50_ms": 1.38,
+   "rtt_p95_ms": 2.08,
+   "rtt_max_ms": 4.91,
+   "cpu_media_pct": 1.12,
+   "cpu_max_pct": 1.3
+  }
+ },
+ "trafico": {
+  "base": {
+   "paquetes": 2247,
+   "syn": 197,
+   "segundos": 20.0
+  },
+  "audit": {
+   "paquetes": 55746,
+   "syn": 5435,
+   "segundos": 45.0
+  },
+  "recup": {
+   "paquetes": 2204,
+   "syn": 197,
+   "segundos": 20.0
+  },
+  "paquetes_extra_por_auditoria_motor": 16896.8
+ }
+}

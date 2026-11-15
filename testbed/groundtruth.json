@@ -1,0 +1,330 @@
+[
+  {
+    "id": "P-ODOO-01",
+    "ip": "192.168.100.11",
+    "kind": "odoo_vuln",
+    "port": 8069,
+    "vulnerable": true,
+    "ground_truth": "Odoo manager sin master_pwd (gestor BD expuesto)"
+  },
+  {
+    "id": "P-ODOO-02",
+    "ip": "192.168.100.12",
+    "kind": "odoo_vuln",
+    "port": 8069,
+    "vulnerable": true,
+    "ground_truth": "Odoo manager sin master_pwd (gestor BD expuesto)"
+  },
+  {
+    "id": "P-ODOO-03",
+    "ip": "192.168.100.13",
+    "kind": "odoo_vuln",
+    "port": 8069,
+    "vulnerable": true,
+    "ground_truth": "Odoo manager sin master_pwd (gestor BD expuesto)"
+  },
+  {
+    "id": "P-ODOO-04",
+    "ip": "192.168.100.14",
+    "kind": "odoo_vuln",
+    "port": 8069,
+    "vulnerable": true,
+    "ground_truth": "Odoo manager sin master_pwd (gestor BD expuesto)"
+  },
+  {
+    "id": "P-ODOO-05",
+    "ip": "192.168.100.15",
+    "kind": "odoo_vuln",
+    "port": 8069,
+    "vulnerable": true,
+    "ground_truth": "Odoo manager sin master_pwd (gestor BD expuesto)"
+  },
+  {
+    "id": "P-ODOO-06",
+    "ip": "192.168.100.16",
+    "kind": "odoo_vuln",
+    "port": 8069,
+    "vulnerable": true,
+    "ground_truth": "Odoo manager sin master_pwd (gestor BD expuesto)"
+  },
+  {
+    "id": "P-ODOO-07",
+    "ip": "192.168.100.17",
+    "kind": "odoo_vuln",
+    "port": 8069,
+    "vulnerable": true,
+    "ground_truth": "Odoo manager sin master_pwd (gestor BD expuesto)"
+  },
+  {
+    "id": "P-ODOO-08",
+    "ip": "192.168.100.18",
+    "kind": "odoo_vuln",
+    "port": 8069,
+    "vulnerable": true,
+    "ground_truth": "Odoo manager sin master_pwd (gestor BD expuesto)"
+  },
+  {
+    "id": "P-ODOO-SLOW",
+    "ip": "192.168.100.19",
+    "kind": "odoo_slow",
+    "port": 8069,
+    "vulnerable": true,
+    "ground_truth": "Odoo vulnerable pero responde >3s (watchdog) -> FN esperado"
+  },
+  {
+    "id": "P-MODBUS-01",
+    "ip": "192.168.100.20",
+    "kind": "modbus",
+    "port": 502,
+    "vulnerable": true,
+    "ground_truth": "Modbus TCP 502 abierto, responde Read Holding Registers"
+  },
+  {
+    "id": "P-MODBUS-02",
+    "ip": "192.168.100.21",
+    "kind": "modbus",
+    "port": 502,
+    "vulnerable": true,
+    "ground_truth": "Modbus TCP 502 abierto, responde Read Holding Registers"
+  },
+  {
+    "id": "P-MODBUS-03",
+    "ip": "192.168.100.22",
+    "kind": "modbus",
+    "port": 502,
+    "vulnerable": true,
+    "ground_truth": "Modbus TCP 502 abierto, responde Read Holding Registers"
+  },
+  {
+    "id": "P-MODBUS-04",
+    "ip": "192.168.100.23",
+    "kind": "modbus",
+    "port": 502,
+    "vulnerable": true,
+    "ground_truth": "Modbus TCP 502 abierto, responde Read Holding Registers"
+  },
+  {
+    "id": "P-MODBUS-05",
+    "ip": "192.168.100.24",
+    "kind": "modbus",
+    "port": 502,
+    "vulnerable": true,
+    "ground_truth": "Modbus TCP 502 abierto, responde Read Holding Registers"
+  },
+  {
+    "id": "P-MODBUS-06",
+    "ip": "192.168.100.25",
+    "kind": "modbus",
+    "port": 502,
+    "vulnerable": true,
+    "ground_truth": "Modbus TCP 502 abierto, responde Read Holding Registers"
+  },
+  {
+    "id": "P-MQTT-01",
+    "ip": "192.168.100.30",
+    "kind": "mqtt_anon",
+    "port": 1883,
+    "vulnerable": true,
+    "ground_truth": "Broker MQTT anonimo (allow_anonymous true)"
+  },
+  {
+    "id": "P-MQTT-02",
+    "ip": "192.168.100.31",
+    "kind": "mqtt_anon",
+    "port": 1883,
+    "vulnerable": true,
+    "ground_truth": "Broker MQTT anonimo (allow_anonymous true)"
+  },
+  {
+    "id": "P-MQTT-03",
+    "ip": "192.168.100.32",
+    "kind": "mqtt_anon",
+    "port": 1883,
+    "vulnerable": true,
+    "ground_truth": "Broker MQTT anonimo (allow_anonymous true)"
+  },
+  {
+    "id": "P-MQTT-04",
+    "ip": "192.168.100.33",
+    "kind": "mqtt_anon",
+    "port": 1883,
+    "vulnerable": true,
+    "ground_truth": "Broker MQTT anonimo (allow_anonymous true)"
+  },
+  {
+    "id": "P-MQTT-05",
+    "ip": "192.168.100.34",
+    "kind": "mqtt_anon",
+    "port": 1883,
+    "vulnerable": true,
+    "ground_truth": "Broker MQTT anonimo (allow_anonymous true)"
+  },
+  {
+    "id": "P-S7-01",
+    "ip": "192.168.100.40",
+    "kind": "s7",
+    "port": 102,
+    "vulnerable": true,
+    "ground_truth": "Siemens S7comm 102 abierto, SZL responde 6ES7"
+  },
+  {
+    "id": "P-S7-02",
+    "ip": "192.168.100.41",
+    "kind": "s7",
+    "port": 102,
+    "vulnerable": true,
+    "ground_truth": "Siemens S7comm 102 abierto, SZL responde 6ES7"
+  },
+  {
+    "id": "P-S7-03",
+    "ip": "192.168.100.42",
+    "kind": "s7",
+    "port": 102,
+    "vulnerable": true,
+    "ground_truth": "Siemens S7comm 102 abierto, SZL responde 6ES7"
+  },
+  {
+    "id": "P-S7-04",
+    "ip": "192.168.100.43",
+    "kind": "s7",
+    "port": 102,
+    "vulnerable": true,
+    "ground_truth": "Siemens S7comm 102 abierto, SZL responde 6ES7"
+  },
+  {
+    "id": "P-S7-05",
+    "ip": "192.168.100.44",
+    "kind": "s7",
+    "port": 102,
+    "vulnerable": true,
+    "ground_truth": "Siemens S7comm 102 abierto, SZL responde 6ES7"
+  },
+  {
+    "id": "N-ODOO-01",
+    "ip": "192.168.100.111",
+    "kind": "odoo_hard",
+    "port": 8069,
+    "vulnerable": false,
+    "ground_truth": "Odoo manager protegido (sin warning)"
+  },
+  {
+    "id": "N-ODOO-02",
+    "ip": "192.168.100.112",
+    "kind": "odoo_hard",
+    "port": 8069,
+    "vulnerable": false,
+    "ground_truth": "Odoo manager protegido (sin warning)"
+  },
+  {
+    "id": "N-ODOO-03",
+    "ip": "192.168.100.113",
+    "kind": "odoo_hard",
+    "port": 8069,
+    "vulnerable": false,
+    "ground_truth": "Odoo manager protegido (sin warning)"
+  },
+  {
+    "id": "N-ODOO-04",
+    "ip": "192.168.100.114",
+    "kind": "odoo_hard",
+    "port": 8069,
+    "vulnerable": false,
+    "ground_truth": "Odoo manager protegido (sin warning)"
+  },
+  {
+    "id": "N-MQTT-01",
+    "ip": "192.168.100.120",
+    "kind": "mqtt_auth",
+    "port": 1883,
+    "vulnerable": false,
+    "ground_truth": "Broker MQTT con auth (allow_anonymous false)"
+  },
+  {
+    "id": "N-MQTT-02",
+    "ip": "192.168.100.121",
+    "kind": "mqtt_auth",
+    "port": 1883,
+    "vulnerable": false,
+    "ground_truth": "Broker MQTT con auth (allow_anonymous false)"
+  },
+  {
+    "id": "N-MQTT-03",
+    "ip": "192.168.100.122",
+    "kind": "mqtt_auth",
+    "port": 1883,
+    "vulnerable": false,
+    "ground_truth": "Broker MQTT con auth (allow_anonymous false)"
+  },
+  {
+    "id": "N-HTTP-01",
+    "ip": "192.168.100.130",
+    "kind": "plain",
+    "port": 80,
+    "vulnerable": false,
+    "ground_truth": "Servicio HTTP normal sin exposiciones"
+  },
+  {
+    "id": "N-HTTP-02",
+    "ip": "192.168.100.131",
+    "kind": "plain",
+    "port": 80,
+    "vulnerable": false,
+    "ground_truth": "Servicio HTTP normal sin exposiciones"
+  },
+  {
+    "id": "N-HTTP-03",
+    "ip": "192.168.100.132",
+    "kind": "plain",
+    "port": 80,
+    "vulnerable": false,
+    "ground_truth": "Servicio HTTP normal sin exposiciones"
+  },
+  {
+    "id": "N-HTTP-04",
+    "ip": "192.168.100.133",
+    "kind": "plain",
+    "port": 80,
+    "vulnerable": false,
+    "ground_truth": "Servicio HTTP normal sin exposiciones"
+  },
+  {
+    "id": "N-MBCLOSED-01",
+    "ip": "192.168.100.140",
+    "kind": "closed",
+    "port": 502,
+    "vulnerable": false,
+    "ground_truth": "Puerto 502 abierto pero NO habla Modbus (pasarela endurecida)"
+  },
+  {
+    "id": "N-MBCLOSED-02",
+    "ip": "192.168.100.141",
+    "kind": "closed",
+    "port": 502,
+    "vulnerable": false,
+    "ground_truth": "Puerto 502 abierto pero NO habla Modbus (pasarela endurecida)"
+  },
+  {
+    "id": "N-MBCLOSED-03",
+    "ip": "192.168.100.142",
+    "kind": "closed",
+    "port": 502,
+    "vulnerable": false,
+    "ground_truth": "Puerto 502 abierto pero NO habla Modbus (pasarela endurecida)"
+  },
+  {
+    "id": "N-S7CLOSED-01",
+    "ip": "192.168.100.150",
+    "kind": "closed",
+    "port": 102,
+    "vulnerable": false,
+    "ground_truth": "Puerto 102 abierto pero NO habla S7"
+  },
+  {
+    "id": "N-S7CLOSED-02",
+    "ip": "192.168.100.151",
+    "kind": "closed",
+    "port": 102,
+    "vulnerable": false,
+    "ground_truth": "Puerto 102 abierto pero NO habla S7"
+  }
+]

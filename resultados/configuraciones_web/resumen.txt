@@ -1,0 +1,5 @@
+config,n,paquetes_media,paquetes_desv,conexiones_media,duracion_media_s,paquetes_por_s
+completa,5,17068,194,1691.8,12.99,1314
+dirigida,5,41,17,2.0,0.29,142
+l7_propio,5,46,0,3.0,0.39,118
+referencia,5,41,16,2.0,0.02,1717

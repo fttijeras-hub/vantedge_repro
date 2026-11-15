@@ -1,0 +1,20 @@
+{
+ "base": {
+  "lecturas": 149,
+  "ventanas_5s": 3,
+  "ciclos_por_s_ventana_media": 100.02,
+  "ciclos_por_s_ventana_min": 99.97
+ },
+ "privado_de_cpu": {
+  "lecturas": 138,
+  "ventanas_5s": 3,
+  "ciclos_por_s_ventana_media": 99.95,
+  "ciclos_por_s_ventana_min": 98.02
+ },
+ "recuperacion": {
+  "lecturas": 150,
+  "ventanas_5s": 3,
+  "ciclos_por_s_ventana_media": 100.01,
+  "ciclos_por_s_ventana_min": 99.91
+ }
+}

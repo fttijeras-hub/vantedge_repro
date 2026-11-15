@@ -1,0 +1,7 @@
+flags=[-ni -duc] run1 11.51 s rc=0
+flags=[-ni -duc] run2 11.22 s rc=0
+flags=[-ni -duc] run3 12.2 s rc=0
+flags=[-duc] run1 16.77 s rc=0
+flags=[-duc] run2 16.88 s rc=0
+flags=[-duc] run3 16.29 s rc=0
+DONE

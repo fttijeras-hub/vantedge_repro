@@ -1,0 +1,1 @@
+REDUCCION media=7.01% desv_muestral=0.69% n=5 valores=[6.67, 7.27, 6.41, 8.1, 6.59]

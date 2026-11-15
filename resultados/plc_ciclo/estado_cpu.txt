@@ -1,0 +1,2 @@
+NanoCpus=2000000000 (limite de CPU del contenedor del PLC antes de medir)
+NanoCpus final=2000000000

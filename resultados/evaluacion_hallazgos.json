@@ -1,0 +1,41 @@
+{
+ "activo": {
+  "aciertos": 41,
+  "n": 41,
+  "pct": 100.0,
+  "ic95": [
+   91.43295511310926,
+   100.0
+  ]
+ },
+ "hallazgo_precision": {
+  "validos": 33,
+  "informados": 38,
+  "pct": 86.84210526315789,
+  "ic95": [
+   72.67282994850113,
+   94.24621712426858
+  ]
+ },
+ "hallazgo_cobertura": {
+  "encontrados": 33,
+  "esperados": 34,
+  "pct": 97.05882352941177,
+  "ic95": [
+   85.08409778365518,
+   99.47892280744036
+  ]
+ },
+ "hallazgos_no_validos": {
+  "s7:modbus-detect": 5
+ },
+ "servidor_real_openplc": {
+  "detectado": 3,
+  "auditorias": 12,
+  "pct": 25.0,
+  "ic95": [
+   8.894003962896138,
+   53.23103391206599
+  ]
+ }
+}

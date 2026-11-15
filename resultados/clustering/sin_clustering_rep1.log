@@ -1,0 +1,7 @@
+[[93mWRN[0m] The concurrency value is higher than max-host-error
+[0:00:05] | Templates: 716 | Hosts: 1 | RPS: 186 | Matched: 0 | Errors: 0 | Requests: 979/1567 (62%)
+[[92modoo-unprotected-database[0m] [[94mhttp[0m] [[31mcritical[0m] http://192.168.100.11:8069/web/database/manager
+[0:00:10] | Templates: 716 | Hosts: 1 | RPS: 152 | Matched: 1 | Errors: 1 | Requests: 1559/1567 (99%)
+[0:00:15] | Templates: 716 | Hosts: 1 | RPS: 102 | Matched: 1 | Errors: 1 | Requests: 1560/1567 (99%)
+[0:00:16] | Templates: 716 | Hosts: 1 | RPS: 100 | Matched: 1 | Errors: 1 | Requests: 1562/1567 (99%)
+[0:00:16] | Templates: 716 | Hosts: 1 | RPS: 100 | Matched: 1 | Errors: 1 | Requests: 1562/1567 (99%)

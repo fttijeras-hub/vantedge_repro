@@ -1,0 +1,13 @@
+test_entrada_vigente_y_caducada (test_modulo.TestCache.test_entrada_vigente_y_caducada) ... ok
+test_huella_registrada (test_modulo.TestCache.test_huella_registrada) ... ok
+test_limitacion_conocida (test_modulo.TestFiltroProveedores.test_limitacion_conocida) ... ok
+test_cache_omite_activo_vigente (test_modulo.TestPacingYDisyuntor.test_cache_omite_activo_vigente) ... ok
+test_disyuntor_de_campana (test_modulo.TestPacingYDisyuntor.test_disyuntor_de_campana) ... ok
+test_pausa_entre_activos (test_modulo.TestPacingYDisyuntor.test_pausa_entre_activos) ... ok
+test_cfg_llega_a_nuclei (test_modulo.TestParametros.test_cfg_llega_a_nuclei) ... ok
+test_sin_shell_ni_interpolacion (test_modulo.TestParametros.test_sin_shell_ni_interpolacion) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.009s
+
+OK

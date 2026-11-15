@@ -1,0 +1,66 @@
+{
+ "Odoo vulnerable (HTTP+L7)": {
+  "escenario": "P-ODOO-01",
+  "n": 10,
+  "media_s": 11.37,
+  "desv_s": 0.58,
+  "min_s": 10.354,
+  "max_s": 12.299
+ },
+ "Odoo endurecido (HTTP+L7)": {
+  "escenario": "N-ODOO-01",
+  "n": 10,
+  "media_s": 11.38,
+  "desv_s": 0.1,
+  "min_s": 11.28,
+  "max_s": 11.593
+ },
+ "HTTP plano": {
+  "escenario": "N-HTTP-01",
+  "n": 10,
+  "media_s": 9.9,
+  "desv_s": 1.16,
+  "min_s": 9.23,
+  "max_s": 12.046
+ },
+ "Modbus TCP": {
+  "escenario": "P-MODBUS-01",
+  "n": 10,
+  "media_s": 0.3,
+  "desv_s": 0.03,
+  "min_s": 0.268,
+  "max_s": 0.37
+ },
+ "S7comm": {
+  "escenario": "P-S7-01",
+  "n": 10,
+  "media_s": 5.31,
+  "desv_s": 0.03,
+  "min_s": 5.274,
+  "max_s": 5.358
+ },
+ "MQTT anónimo": {
+  "escenario": "P-MQTT-01",
+  "n": 10,
+  "media_s": 0.3,
+  "desv_s": 0.03,
+  "min_s": 0.267,
+  "max_s": 0.367
+ },
+ "MQTT con autenticación": {
+  "escenario": "N-MQTT-01",
+  "n": 10,
+  "media_s": 0.31,
+  "desv_s": 0.02,
+  "min_s": 0.266,
+  "max_s": 0.321
+ },
+ "Puerto 502 abierto sin Modbus": {
+  "escenario": "N-MBCLOSED-01",
+  "n": 10,
+  "media_s": 5.31,
+  "desv_s": 0.03,
+  "min_s": 5.287,
+  "max_s": 5.344
+ }
+}

@@ -1,0 +1,592 @@
+{
+ "metricas": {
+  "TP": 25,
+  "FN": 0,
+  "FP": 0,
+  "TN": 16,
+  "N": 41,
+  "exactitud": 100.0,
+  "sensibilidad": 100.0,
+  "precision": 100.0,
+  "fpr": 0.0,
+  "especificidad": 100.0,
+  "ic95_sensibilidad": [
+   86.68035060468212,
+   100.0
+  ],
+  "ic95_fpr": [
+   0.0,
+   19.361341827271993
+  ],
+  "ic95_exactitud": [
+   91.43295511310926,
+   100.0
+  ],
+  "ic95_precision": [
+   86.68035060468212,
+   100.0
+  ],
+  "ic95_especificidad": [
+   80.638658172728,
+   100.0
+  ],
+  "f1": 1.0
+ },
+ "escenarios": [
+  {
+   "id": "P-ODOO-01",
+   "ip": "192.168.100.11",
+   "port": 8069,
+   "tipo": "odoo_vuln",
+   "vulnerable": true,
+   "verdad_referencia": "Odoo manager sin master_pwd (gestor BD expuesto)",
+   "detectado": true,
+   "hallazgos": [
+    "l7-odoo-unprotected",
+    "odoo-unprotected-database"
+   ],
+   "t_total_s": 11.236,
+   "veredicto": "TP"
+  },
+  {
+   "id": "P-ODOO-02",
+   "ip": "192.168.100.12",
+   "port": 8069,
+   "tipo": "odoo_vuln",
+   "vulnerable": true,
+   "verdad_referencia": "Odoo manager sin master_pwd (gestor BD expuesto)",
+   "detectado": true,
+   "hallazgos": [
+    "l7-odoo-unprotected",
+    "odoo-unprotected-database"
+   ],
+   "t_total_s": 11.047,
+   "veredicto": "TP"
+  },
+  {
+   "id": "P-ODOO-03",
+   "ip": "192.168.100.13",
+   "port": 8069,
+   "tipo": "odoo_vuln",
+   "vulnerable": true,
+   "verdad_referencia": "Odoo manager sin master_pwd (gestor BD expuesto)",
+   "detectado": true,
+   "hallazgos": [
+    "l7-odoo-unprotected",
+    "odoo-unprotected-database"
+   ],
+   "t_total_s": 11.306,
+   "veredicto": "TP"
+  },
+  {
+   "id": "P-ODOO-04",
+   "ip": "192.168.100.14",
+   "port": 8069,
+   "tipo": "odoo_vuln",
+   "vulnerable": true,
+   "verdad_referencia": "Odoo manager sin master_pwd (gestor BD expuesto)",
+   "detectado": true,
+   "hallazgos": [
+    "l7-odoo-unprotected",
+    "odoo-unprotected-database"
+   ],
+   "t_total_s": 11.342,
+   "veredicto": "TP"
+  },
+  {
+   "id": "P-ODOO-05",
+   "ip": "192.168.100.15",
+   "port": 8069,
+   "tipo": "odoo_vuln",
+   "vulnerable": true,
+   "verdad_referencia": "Odoo manager sin master_pwd (gestor BD expuesto)",
+   "detectado": true,
+   "hallazgos": [
+    "l7-odoo-unprotected",
+    "odoo-unprotected-database"
+   ],
+   "t_total_s": 11.3,
+   "veredicto": "TP"
+  },
+  {
+   "id": "P-ODOO-06",
+   "ip": "192.168.100.16",
+   "port": 8069,
+   "tipo": "odoo_vuln",
+   "vulnerable": true,
+   "verdad_referencia": "Odoo manager sin master_pwd (gestor BD expuesto)",
+   "detectado": true,
+   "hallazgos": [
+    "l7-odoo-unprotected",
+    "odoo-unprotected-database"
+   ],
+   "t_total_s": 11.552,
+   "veredicto": "TP"
+  },
+  {
+   "id": "P-ODOO-07",
+   "ip": "192.168.100.17",
+   "port": 8069,
+   "tipo": "odoo_vuln",
+   "vulnerable": true,
+   "verdad_referencia": "Odoo manager sin master_pwd (gestor BD expuesto)",
+   "detectado": true,
+   "hallazgos": [
+    "l7-odoo-unprotected",
+    "odoo-unprotected-database"
+   ],
+   "t_total_s": 11.302,
+   "veredicto": "TP"
+  },
+  {
+   "id": "P-ODOO-08",
+   "ip": "192.168.100.18",
+   "port": 8069,
+   "tipo": "odoo_vuln",
+   "vulnerable": true,
+   "verdad_referencia": "Odoo manager sin master_pwd (gestor BD expuesto)",
+   "detectado": true,
+   "hallazgos": [
+    "l7-odoo-unprotected",
+    "odoo-unprotected-database"
+   ],
+   "t_total_s": 11.48,
+   "veredicto": "TP"
+  },
+  {
+   "id": "P-ODOO-SLOW",
+   "ip": "192.168.100.19",
+   "port": 8069,
+   "tipo": "odoo_slow",
+   "vulnerable": true,
+   "verdad_referencia": "Odoo vulnerable pero responde >3s (watchdog) -> FN esperado",
+   "detectado": true,
+   "hallazgos": [
+    "l7-odoo-unprotected"
+   ],
+   "t_total_s": 16.365,
+   "veredicto": "TP"
+  },
+  {
+   "id": "P-MODBUS-01",
+   "ip": "192.168.100.20",
+   "port": 502,
+   "tipo": "modbus",
+   "vulnerable": true,
+   "verdad_referencia": "Modbus TCP 502 abierto, responde Read Holding Registers",
+   "detectado": true,
+   "hallazgos": [
+    "modbus-detect"
+   ],
+   "t_total_s": 0.317,
+   "veredicto": "TP"
+  },
+  {
+   "id": "P-MODBUS-02",
+   "ip": "192.168.100.21",
+   "port": 502,
+   "tipo": "modbus",
+   "vulnerable": true,
+   "verdad_referencia": "Modbus TCP 502 abierto, responde Read Holding Registers",
+   "detectado": true,
+   "hallazgos": [
+    "modbus-detect"
+   ],
+   "t_total_s": 0.368,
+   "veredicto": "TP"
+  },
+  {
+   "id": "P-MODBUS-03",
+   "ip": "192.168.100.22",
+   "port": 502,
+   "tipo": "modbus",
+   "vulnerable": true,
+   "verdad_referencia": "Modbus TCP 502 abierto, responde Read Holding Registers",
+   "detectado": true,
+   "hallazgos": [
+    "modbus-detect"
+   ],
+   "t_total_s": 0.319,
+   "veredicto": "TP"
+  },
+  {
+   "id": "P-MODBUS-04",
+   "ip": "192.168.100.23",
+   "port": 502,
+   "tipo": "modbus",
+   "vulnerable": true,
+   "verdad_referencia": "Modbus TCP 502 abierto, responde Read Holding Registers",
+   "detectado": true,
+   "hallazgos": [
+    "modbus-detect"
+   ],
+   "t_total_s": 0.318,
+   "veredicto": "TP"
+  },
+  {
+   "id": "P-MODBUS-05",
+   "ip": "192.168.100.24",
+   "port": 502,
+   "tipo": "modbus",
+   "vulnerable": true,
+   "verdad_referencia": "Modbus TCP 502 abierto, responde Read Holding Registers",
+   "detectado": true,
+   "hallazgos": [
+    "modbus-detect"
+   ],
+   "t_total_s": 0.272,
+   "veredicto": "TP"
+  },
+  {
+   "id": "P-MODBUS-06",
+   "ip": "192.168.100.25",
+   "port": 502,
+   "tipo": "modbus",
+   "vulnerable": true,
+   "verdad_referencia": "Modbus TCP 502 abierto, responde Read Holding Registers",
+   "detectado": true,
+   "hallazgos": [
+    "modbus-detect"
+   ],
+   "t_total_s": 0.267,
+   "veredicto": "TP"
+  },
+  {
+   "id": "P-MQTT-01",
+   "ip": "192.168.100.30",
+   "port": 1883,
+   "tipo": "mqtt_anon",
+   "vulnerable": true,
+   "verdad_referencia": "Broker MQTT anonimo (allow_anonymous true)",
+   "detectado": true,
+   "hallazgos": [
+    "unauth-mqtt-broker"
+   ],
+   "t_total_s": 0.271,
+   "veredicto": "TP"
+  },
+  {
+   "id": "P-MQTT-02",
+   "ip": "192.168.100.31",
+   "port": 1883,
+   "tipo": "mqtt_anon",
+   "vulnerable": true,
+   "verdad_referencia": "Broker MQTT anonimo (allow_anonymous true)",
+   "detectado": true,
+   "hallazgos": [
+    "unauth-mqtt-broker"
+   ],
+   "t_total_s": 0.37,
+   "veredicto": "TP"
+  },
+  {
+   "id": "P-MQTT-03",
+   "ip": "192.168.100.32",
+   "port": 1883,
+   "tipo": "mqtt_anon",
+   "vulnerable": true,
+   "verdad_referencia": "Broker MQTT anonimo (allow_anonymous true)",
+   "detectado": true,
+   "hallazgos": [
+    "unauth-mqtt-broker"
+   ],
+   "t_total_s": 0.368,
+   "veredicto": "TP"
+  },
+  {
+   "id": "P-MQTT-04",
+   "ip": "192.168.100.33",
+   "port": 1883,
+   "tipo": "mqtt_anon",
+   "vulnerable": true,
+   "verdad_referencia": "Broker MQTT anonimo (allow_anonymous true)",
+   "detectado": true,
+   "hallazgos": [
+    "unauth-mqtt-broker"
+   ],
+   "t_total_s": 0.319,
+   "veredicto": "TP"
+  },
+  {
+   "id": "P-MQTT-05",
+   "ip": "192.168.100.34",
+   "port": 1883,
+   "tipo": "mqtt_anon",
+   "vulnerable": true,
+   "verdad_referencia": "Broker MQTT anonimo (allow_anonymous true)",
+   "detectado": true,
+   "hallazgos": [
+    "unauth-mqtt-broker"
+   ],
+   "t_total_s": 0.318,
+   "veredicto": "TP"
+  },
+  {
+   "id": "P-S7-01",
+   "ip": "192.168.100.40",
+   "port": 102,
+   "tipo": "s7",
+   "vulnerable": true,
+   "verdad_referencia": "Siemens S7comm 102 abierto, SZL responde 6ES7",
+   "detectado": true,
+   "hallazgos": [
+    "modbus-detect",
+    "siemens-s7-detect"
+   ],
+   "t_total_s": 5.29,
+   "veredicto": "TP"
+  },
+  {
+   "id": "P-S7-02",
+   "ip": "192.168.100.41",
+   "port": 102,
+   "tipo": "s7",
+   "vulnerable": true,
+   "verdad_referencia": "Siemens S7comm 102 abierto, SZL responde 6ES7",
+   "detectado": true,
+   "hallazgos": [
+    "modbus-detect",
+    "siemens-s7-detect"
+   ],
+   "t_total_s": 5.301,
+   "veredicto": "TP"
+  },
+  {
+   "id": "P-S7-03",
+   "ip": "192.168.100.42",
+   "port": 102,
+   "tipo": "s7",
+   "vulnerable": true,
+   "verdad_referencia": "Siemens S7comm 102 abierto, SZL responde 6ES7",
+   "detectado": true,
+   "hallazgos": [
+    "modbus-detect",
+    "siemens-s7-detect"
+   ],
+   "t_total_s": 5.343,
+   "veredicto": "TP"
+  },
+  {
+   "id": "P-S7-04",
+   "ip": "192.168.100.43",
+   "port": 102,
+   "tipo": "s7",
+   "vulnerable": true,
+   "verdad_referencia": "Siemens S7comm 102 abierto, SZL responde 6ES7",
+   "detectado": true,
+   "hallazgos": [
+    "modbus-detect",
+    "siemens-s7-detect"
+   ],
+   "t_total_s": 5.342,
+   "veredicto": "TP"
+  },
+  {
+   "id": "P-S7-05",
+   "ip": "192.168.100.44",
+   "port": 102,
+   "tipo": "s7",
+   "vulnerable": true,
+   "verdad_referencia": "Siemens S7comm 102 abierto, SZL responde 6ES7",
+   "detectado": true,
+   "hallazgos": [
+    "modbus-detect",
+    "siemens-s7-detect"
+   ],
+   "t_total_s": 5.301,
+   "veredicto": "TP"
+  },
+  {
+   "id": "N-ODOO-01",
+   "ip": "192.168.100.111",
+   "port": 8069,
+   "tipo": "odoo_hard",
+   "vulnerable": false,
+   "verdad_referencia": "Odoo manager protegido (sin warning)",
+   "detectado": false,
+   "hallazgos": [],
+   "t_total_s": 11.325,
+   "veredicto": "TN"
+  },
+  {
+   "id": "N-ODOO-02",
+   "ip": "192.168.100.112",
+   "port": 8069,
+   "tipo": "odoo_hard",
+   "vulnerable": false,
+   "verdad_referencia": "Odoo manager protegido (sin warning)",
+   "detectado": false,
+   "hallazgos": [],
+   "t_total_s": 11.324,
+   "veredicto": "TN"
+  },
+  {
+   "id": "N-ODOO-03",
+   "ip": "192.168.100.113",
+   "port": 8069,
+   "tipo": "odoo_hard",
+   "vulnerable": false,
+   "verdad_referencia": "Odoo manager protegido (sin warning)",
+   "detectado": false,
+   "hallazgos": [],
+   "t_total_s": 11.337,
+   "veredicto": "TN"
+  },
+  {
+   "id": "N-ODOO-04",
+   "ip": "192.168.100.114",
+   "port": 8069,
+   "tipo": "odoo_hard",
+   "vulnerable": false,
+   "verdad_referencia": "Odoo manager protegido (sin warning)",
+   "detectado": false,
+   "hallazgos": [],
+   "t_total_s": 11.349,
+   "veredicto": "TN"
+  },
+  {
+   "id": "N-MQTT-01",
+   "ip": "192.168.100.120",
+   "port": 1883,
+   "tipo": "mqtt_auth",
+   "vulnerable": false,
+   "verdad_referencia": "Broker MQTT con auth (allow_anonymous false)",
+   "detectado": false,
+   "hallazgos": [],
+   "t_total_s": 0.267,
+   "veredicto": "TN"
+  },
+  {
+   "id": "N-MQTT-02",
+   "ip": "192.168.100.121",
+   "port": 1883,
+   "tipo": "mqtt_auth",
+   "vulnerable": false,
+   "verdad_referencia": "Broker MQTT con auth (allow_anonymous false)",
+   "detectado": false,
+   "hallazgos": [],
+   "t_total_s": 0.368,
+   "veredicto": "TN"
+  },
+  {
+   "id": "N-MQTT-03",
+   "ip": "192.168.100.122",
+   "port": 1883,
+   "tipo": "mqtt_auth",
+   "vulnerable": false,
+   "verdad_referencia": "Broker MQTT con auth (allow_anonymous false)",
+   "detectado": false,
+   "hallazgos": [],
+   "t_total_s": 0.267,
+   "veredicto": "TN"
+  },
+  {
+   "id": "N-HTTP-01",
+   "ip": "192.168.100.130",
+   "port": 80,
+   "tipo": "plain",
+   "vulnerable": false,
+   "verdad_referencia": "Servicio HTTP normal sin exposiciones",
+   "detectado": false,
+   "hallazgos": [],
+   "t_total_s": 9.378,
+   "veredicto": "TN"
+  },
+  {
+   "id": "N-HTTP-02",
+   "ip": "192.168.100.131",
+   "port": 80,
+   "tipo": "plain",
+   "vulnerable": false,
+   "verdad_referencia": "Servicio HTTP normal sin exposiciones",
+   "detectado": false,
+   "hallazgos": [],
+   "t_total_s": 9.293,
+   "veredicto": "TN"
+  },
+  {
+   "id": "N-HTTP-03",
+   "ip": "192.168.100.132",
+   "port": 80,
+   "tipo": "plain",
+   "vulnerable": false,
+   "verdad_referencia": "Servicio HTTP normal sin exposiciones",
+   "detectado": false,
+   "hallazgos": [],
+   "t_total_s": 9.425,
+   "veredicto": "TN"
+  },
+  {
+   "id": "N-HTTP-04",
+   "ip": "192.168.100.133",
+   "port": 80,
+   "tipo": "plain",
+   "vulnerable": false,
+   "verdad_referencia": "Servicio HTTP normal sin exposiciones",
+   "detectado": false,
+   "hallazgos": [],
+   "t_total_s": 9.188,
+   "veredicto": "TN"
+  },
+  {
+   "id": "N-MBCLOSED-01",
+   "ip": "192.168.100.140",
+   "port": 502,
+   "tipo": "closed",
+   "vulnerable": false,
+   "verdad_referencia": "Puerto 502 abierto pero NO habla Modbus (pasarela endurecida)",
+   "detectado": false,
+   "hallazgos": [],
+   "t_total_s": 5.292,
+   "veredicto": "TN"
+  },
+  {
+   "id": "N-MBCLOSED-02",
+   "ip": "192.168.100.141",
+   "port": 502,
+   "tipo": "closed",
+   "vulnerable": false,
+   "verdad_referencia": "Puerto 502 abierto pero NO habla Modbus (pasarela endurecida)",
+   "detectado": false,
+   "hallazgos": [],
+   "t_total_s": 5.34,
+   "veredicto": "TN"
+  },
+  {
+   "id": "N-MBCLOSED-03",
+   "ip": "192.168.100.142",
+   "port": 502,
+   "tipo": "closed",
+   "vulnerable": false,
+   "verdad_referencia": "Puerto 502 abierto pero NO habla Modbus (pasarela endurecida)",
+   "detectado": false,
+   "hallazgos": [],
+   "t_total_s": 5.29,
+   "veredicto": "TN"
+  },
+  {
+   "id": "N-S7CLOSED-01",
+   "ip": "192.168.100.150",
+   "port": 102,
+   "tipo": "closed",
+   "vulnerable": false,
+   "verdad_referencia": "Puerto 102 abierto pero NO habla S7",
+   "detectado": false,
+   "hallazgos": [],
+   "t_total_s": 5.24,
+   "veredicto": "TN"
+  },
+  {
+   "id": "N-S7CLOSED-02",
+   "ip": "192.168.100.151",
+   "port": 102,
+   "tipo": "closed",
+   "vulnerable": false,
+   "verdad_referencia": "Puerto 102 abierto pero NO habla S7",
+   "detectado": false,
+   "hallazgos": [],
+   "t_total_s": 5.299,
+   "veredicto": "TN"
+  }
+ ]
+}
